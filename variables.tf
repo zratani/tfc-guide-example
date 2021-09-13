@@ -13,3 +13,8 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "environment" {
+  description =  "Environment"
+  default =  "dev"
+}
+
